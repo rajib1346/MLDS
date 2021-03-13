@@ -1,1 +1,4 @@
+Train Test Splitting Ration 60:40
+Total Iteration : 23
 
+60_40.rar file contains all output files.
