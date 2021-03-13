@@ -1,0 +1,4 @@
+Train Test Splitting Ratio 87.5:12.5
+Total Iteration : 47
+
+87.5:12.5.rar file contains all output files.
