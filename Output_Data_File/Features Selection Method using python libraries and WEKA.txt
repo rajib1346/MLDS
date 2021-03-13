@@ -1,0 +1,81 @@
+Features Selection Output (using python libraries AND WEKA)
+
+Corelation (using WEKA)
+=========================================
+ 0.23816   1 age
+ 0.22115   7 cholesterol					Selected Features:		
+ 0.18166   4 weight  						'age','cholesterol','weight','gluc','ap_lo','ap_hi'									87.5- 12.5-->
+ 0.08931   8 gluc  							
+ 0.06572   6 ap_lo							
+ 0.05448   5 ap_hi
+----------------------
+
+ 0.03565  11 active
+ 0.01549   9 smoke
+ 0.01082   3 height
+ 0.00811   2 gender
+ 0.00733  10 alco
+--------------------------
+GainRation (using WEKA)
+========================================
+ 0.072691   5 ap_hi
+ 0.054584   6 ap_lo
+ 0.034366   7 cholesterol
+ 0.01393    1 age
+ 0.008123   4 weight
+ 0.008007   8 gluc
+----------------------- 
+ 0.001284  11 active
+ 0.000519   3 height
+ 0.000402   9 smoke
+ 0         10 alco
+ 0          2 gender
+---------------------------
+InfoGain (using WEKA)
+=======================================
+Ranked attributes:
+  0.170065   5 ap_hi
+ 0.106194   6 ap_lo
+ 0.044944   1 age
+ 0.036573   7 cholesterol
+ 0.025608   4 weight
+ 0.006092   8 gluc
+------------------------
+ 0.000918  11 active
+ 0.000332   3 height
+ 0.000173   9 smoke
+ 0         10 alco
+ 0          2 gender
+------------------------------
+
+Lasso (using python libraries)
+===================================
+0.014558  age
+0.005504  weight
+0.000142   ap_lo
+0.000141   ap_hi
+0 	     chol
+0                gluc
+-----------------------------
+- 0              smoke 
+- 0              alco
+- 0              active
+- 0              gender
+- 0.00104   hight
+---------------------------
+
+Extr Trees Classifier (using python libraries)
+==================================================
+0.290111  age
+0.177682  ap_hi
+0.176635  weight
+0.171074  height
+0.109448  ap_lo
+0.045414  chol
+-------------------
+0.011002  gluc
+0.005456  gender
+0.004683  active
+0.004346  alco
+0.004143  smoke
+-------------------
