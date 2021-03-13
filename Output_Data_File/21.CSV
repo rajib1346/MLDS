@@ -1,0 +1,4 @@
+age,weight,ap_hi,ap_lo,cholesterol,gluc,target,gb_pre,match
+42.30410959,89,130,90,1,1,yes,yes,TRUE
+62.49315068,89,110,70,2,1,no,no,TRUE
+63.9890411,63,110,80,2,2,no,no,TRUE

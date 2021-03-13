@@ -1,0 +1,5 @@
+age,weight,ap_hi,ap_lo,cholesterol,gluc,target,rf_pre,match
+57.96712329,74,120,70,1,1,yes,yes,TRUE
+49.62191781,74,130,80,1,1,yes,yes,TRUE
+47.42191781,88,120,80,2,1,yes,yes,TRUE
+47.65753425,77,130,80,1,1,yes,yes,TRUE
